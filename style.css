@@ -1,0 +1,189 @@
+body {
+    margin: 0em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    padding: 0;
+}
+
+header {
+    background-color: #fcb8ab;
+
+}
+
+#navbar {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 0.6em 0 0.6rem 2em;
+    font-size: 1.8em;
+    font-weight: 900;
+    color: #442b2d;
+}
+
+#content {
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#part1 {
+    font-size: 3rem;
+    width: 75%;
+    font-weight: bolder;
+}
+
+#part2 {
+    font-size: 7rem;
+    font-weight: bolder;
+    width: 60%;
+}
+
+#part3 {
+    width: 40%;
+}
+
+#tips {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+#part {
+    display: flex;
+    flex-direction: row;
+}
+
+#tipcontent {
+    display: flex;
+    border: 2px solid #442b2d;
+    margin:1rem;
+    margin-right:3rem;
+    margin-left:3rem;
+    border-radius:2rem;
+}
+
+#image2 {
+    width: 25%;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    margin-left:4rem;
+    height:35%;
+}
+#tipcontent h1{
+    font-size:5rem;
+    align-self:center;
+    margin-left:18rem;
+}
+#tipcontent2 {
+    display: flex;
+    border: 2px solid #442b2d;
+    margin:2rem;
+    margin-right:3rem;
+    margin-left:3rem;
+    border-radius:2rem;
+}
+#image3 {
+    width: 25%;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    margin-right:1rem;
+    padding-left:18rem;
+    height:35%;
+}
+#tipcontent2 h1{
+    font-size:5rem;
+    align-self:center;
+    margin-left:10rem;
+}
+#symptoms{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+#symcontent{
+    background-color: #fcb8ab;
+    padding:1.5rem 3rem 3rem 3rem;
+}
+#table,th,td{
+    border: 1px solid #442b2d;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.4rem;
+}
+#table th{
+    font-size:2rem; 
+    padding:0.8rem;
+}
+#table td{
+    padding:0.6rem;
+    text-align: center;
+}
+#faq{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+#faqmain{
+    display: flex;
+    flex-direction: column;
+}
+.faqcontent{
+    display :flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    margin: 3rem 4rem 3rem 4rem;
+    border: 2px solid #442b2d;
+    border-radius:2rem;
+}
+.faqcontent p {
+    font-size: 1.2rem;
+}
+.faqcontent h2{
+    font-size: 2.2rem;
+}
+#faqcontentmid{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#YouTube{
+    color: #442b2d;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+#ytimage{
+    height:50%;
+    width:50%;
+    display:block;
+    margin:3rem;
+    margin-left: auto;
+    margin-right:auto;
+    border: 2px solid #442b2d;
+}
+#yt{
+    padding:1rem;
+    margin-bottom: 2rem;
+}
+#yt p{
+    text-align: center;
+    font-size: 1.6rem;
+}
+#footer{
+    display: flex;
+    background-color: #fcb8ab;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+}
+#footer h1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
